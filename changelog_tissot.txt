@@ -1,4 +1,28 @@
 ====================
+     24-07-2018
+====================
+*Liquid Version bumped to 9.1.4
+*Added call recording
+*Added nexus.xml sysconfig to proprietary files list
+*Fixed gps locking issue
+*Fixed touch screen issues(needs testing)
+*Update Gcam to Pixel2Mod V8.1 By Arnova8G2
+*Phone,Messages,Documents apps are now themeable(using the themes option present in lounge)
+*Added ripple effect to the buttons to the left and right of the brightness slider
+*Improved LTE reception antenna level
+*Screenrecord: Improvements for notification
+*Improved MTP
+*Many More Under the hood changes and improvements
+*Check our Gihub for more information
+Kernel Changes:
+*Upstreamed Kernel to 3.18.116
+*Merged Latest Caf tags
+*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09200-89xx.0
+*Improved cfq i/o scheduler
+*Removed Wake Gestures
+*Few more optimisations and improvements
+
+====================
      13-07-2018
 ====================
 *Liquid Version bumped to 9.1.3

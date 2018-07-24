@@ -29,4 +29,33 @@
                 description="Like my work?Click here, to buy me a coffee then :D">http://paypal.me/VenkatVV</DonationUrl>
         </tissot>
     </Official>
+    <Weekly>
+        <tissot>
+            <Filename>9.1.4-20180724-WEEKLY-tissot</Filename>
+            <RomUrl
+                id="rom"
+                title="LiquidRemix"
+                description="Download latest build for tissot">https://www.androidfilehost.com/?fid=5862345805528057179</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog"
+                description="Click here to view latest changes">https://bit.ly/2JO8Csn</ChangelogUrl>
+            <OpenGappsUrl
+                id="open_gapps"
+                title="OpenGApps"
+                description="Download latest OpenGApps for Android Oreo">https://opengapps.org</OpenGappsUrl>
+            <TelegramGroupUrl
+                id="telegram_group"
+                title="TelegramGroup"
+                description="Join Telegram For Support regarding features and bug fixes">https://t.me/CarbonRomandLR</TelegramGroupUrl>
+            <MagiskUrl
+                id="magisk"
+                title="StableMagisk"
+                description="Download latest magisk zip for root">https://forum.xda-developers.com/apps/magisk</MagiskUrl>
+             <DonationUrl
+                id="donate"
+                title="Donate"
+                description="Like my work?Click here, to buy me a coffee then :D">http://paypal.me/VenkatVV</DonationUrl>
+        </tissot>
+    </Weekly>
 </SlimOTA>
