@@ -31,11 +31,11 @@
     </Official>
     <Weekly>
         <tissot>
-            <Filename>9.1.4-20180724-WEEKLY-tissot</Filename>
+            <Filename>9.1.4-20180731-WEEKLY-tissot</Filename>
             <RomUrl
                 id="rom"
                 title="LiquidRemix"
-                description="Download latest build for tissot">https://www.androidfilehost.com/?fid=5862345805528057179</RomUrl>
+                description="Download latest build for tissot">https://www.androidfilehost.com/?fid=5862345805528063050</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog"

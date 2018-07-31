@@ -1,4 +1,24 @@
 ====================
+     31-07-2018
+====================
+*Added Navigation Gestures (Like in OOS)
+*Now, Disable the sim icon too when a sim is disabled
+*Align QS tiles and label as per Device Accent 
+*Fixed touch screen issues(needs testing)
+*Added ScreenStablization toggle in disaplay setiings
+*Added ScreenStablization QS Tile
+*Slashify All the tiles to match QS
+*Dialer: Correct an interruption of a conversation recording  
+         when the application is maximized & minimized
+*Many More Under the hood changes and improvements
+*Check our Gihub for more information
+Kernel Changes:
+*Upstreamed Kernel to 3.18.117
+*Merged Latest Caf tags
+*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09400-89xx.0
+*drivers: touchscreen: ft5435: Fix unbalanced IRQ warnings 
+
+====================
      24-07-2018
 ====================
 *Liquid Version bumped to 9.1.4
