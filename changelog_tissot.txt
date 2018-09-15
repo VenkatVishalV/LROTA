@@ -1,4 +1,16 @@
 ====================
+     15-09-2018
+====================
+*New September security update (OPM6.171019.030.K1)
+*Frameworks base bug fixes and security updates
+Kernel Changes:
+*Upstreamed Kernel to 3.18.122
+*Merged Latest Caf tags
+*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09700-89xx.0
+*Update powersuspend to 1.8
+*Update Wireguard to 0.0.20180904
+
+====================
      26-08-2018
 ====================
 *Liquid Version bumped to 9.1.5
