@@ -6,8 +6,8 @@
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically
 # * Chances are you only need to change the ota_url in this file
 #
-ota_url=https://raw.githubusercontent.com/VenkatVishalV/LROTA/oc-mr2/tissot.xml
-release_type=Official
+ota_url=https://raw.githubusercontent.com/VenkatVishalV/LROTA/pie/tissot.xml
+release_type=Weekly
 device_name=ro.liquid.device
 #
 # VERSION
@@ -16,7 +16,7 @@ device_name=ro.liquid.device
 # A version source can be a 'property key' from build.prop or a 'uname -r' command line
 # If a version is a number, leave the version_format empty. Otherwise, provide the date format
 #
-# Example with a property key 'ro.liquid.version' : Parse the date 20180612 from 'liquid_remix-9.1.1-20180612-OFFICIAL-tissot.zip'
+# Example with a property key 'ro.liquid.version' : Parse the date 20180930 from 'liquid_remix-10.0-20180930-WEEKLY-tissot.zip'
 #
 # Version source: ro.liquid.version
 # Version delimiter: -

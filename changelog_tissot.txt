@@ -1,205 +1,23 @@
 ====================
-     15-09-2018
+     30-09-2018
 ====================
-*New September security update (OPM6.171019.030.K1)
-*Frameworks base bug fixes and security updates
+[*]Removed snap and added gcam as default cam
+[*]Added LiquidOTA support
+[*]Added expanded desktop option in lounge
+[*]Added expanded desktop tile
+[*]Added screen stablization
+[*]Added liquid logo to firmware version dialogue
+[*]Added back swipe fingerprint to clear notifications gesture
+[*]Added a toogle to show 4g instead of LTE on status bar
+[*]Switched the default launcher back to launcher3
+[*]Added rounded corners paddings
+[*]Fixed battery stats
+[*]Updated sim color options
+[*]fwb bugfixed and updates
+[*]Fixed powermenu scroll when more than 5 options are added to it
+[*]Check our github for more changes
 Kernel Changes:
-*Upstreamed Kernel to 3.18.122
-*Merged Latest Caf tags
-*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09700-89xx.0
-*Update powersuspend to 1.8
-*Update Wireguard to 0.0.20180904
-
-====================
-     26-08-2018
-====================
-*Liquid Version bumped to 9.1.5
-*Frameworks base bug fixes and security updates
-Kernel Changes:
-*Upstreamed Kernel to 3.18.119
-*Merged Latest Caf tags
-*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09600-89xx.0
-Enable local-init sanitizer
-*Update Wireguard to 0.0.20180809
-*Improve Clarity Governor
-*Add Ability to Set CRC Check (disable by Default)
-*Fix battery drain in the deep sleep mode
-
-====================
-     11-08-2018
-====================
-*New august security update (OPM6.171019.030.H1)
-*Frameworks base bug fixes and security updates
-*Improved Navigation Gestures
-*Improved Theming and Substratum Support
-*Improved IMS and VoLTE support
-*Wired/BT headset: make ringtone audio focus customizable
-*Added GamingMode QS Tile
-*Many More Under the hood changes and improvements
-*Check our Gihub for more information
-Kernel Changes:
-*Upstreamed Kernel to 3.18.118
-*Merged Latest Caf tags
-*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09500-89xx.0
-*Improved f2fs
-*Improved fscrypt
-*Improve sdfat driver
-*Fixed various memory leaks
-*Updated Wireguard to 0.0.20180802
-
-====================
-     31-07-2018
-====================
-*Added Navigation Gestures (Like in OOS)
-*Now, Disable the sim icon too when a sim is disabled
-*Align QS tiles and label as per Device Accent 
-*Fixed touch screen issues(needs testing)
-*Added ScreenStablization toggle in disaplay setiings
-*Added ScreenStablization QS Tile
-*Slashify All the tiles to match QS
-*Dialer: Correct an interruption of a conversation recording  
-         when the application is maximized & minimized
-*Many More Under the hood changes and improvements
-*Check our Gihub for more information
-Kernel Changes:
-*Upstreamed Kernel to 3.18.117
-*Merged Latest Caf tags
-*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09400-89xx.0
-*drivers: touchscreen: ft5435: Fix unbalanced IRQ warnings 
-
-====================
-     24-07-2018
-====================
-*Liquid Version bumped to 9.1.4
-*Added call recording
-*Added nexus.xml sysconfig to proprietary files list
-*Fixed gps locking issue
-*Fixed touch screen issues(needs testing)
-*Update Gcam to Pixel2Mod V8.1 By Arnova8G2
-*Phone,Messages,Documents apps are now themeable(using the themes option present in lounge)
-*Added ripple effect to the buttons to the left and right of the brightness slider
-*Improved LTE reception antenna level
-*Screenrecord: Improvements for notification
-*Improved MTP
-*Many More Under the hood changes and improvements
-*Check our Gihub for more information
-Kernel Changes:
-*Upstreamed Kernel to 3.18.116
-*Merged Latest Caf tags
-*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09200-89xx.0
-*Improved cfq i/o scheduler
-*Removed Wake Gestures
-*Few more optimisations and improvements
-
-====================
-     13-07-2018
-====================
-*Liquid Version bumped to 9.1.3
-*July Security Patches
-*Update Gcam to Pixel2Mod V8 By Arnova8G2
-*Update V1.0 media profiles
-*Set Bootanimation to half-res for faster boot
-*Added Display Always on mode (disabled by default)
-*Included Network fix commit by phhuson
-*Fixed Data Suspend Option in Lounge
-*Added Gesture Anywhere Feature
-*Added Android P Volume Panel
-*Added Chocolate UI
-*Made PowerMenu Dynamic
-Kernel Changes:
-*Upstreamed Kernel to 3.18.115
-*Merged Latest Caf tags
-*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09000-89xx.0
-*Implement Wake Gestures
-*Improved bfq i/o scheduler
-*Added sdFAT Driver
-*Improved clarity and Impulse governors
-*Improved sdcardfs, wiregaurd support
-
-====================
-     26-06-2018
-====================
-*Liquid Upstream
-*Fixed OTA Support
-*Fixed that annoying battery/charging bug and a few more weird bugs that people reported while they were on yesterday's build
-Kernel Changes:
-*Added BLU_ACTIVE,CLARITY,IMPULSE GOVERNORS
-*Added CPU Boost
-
-====================
-     25-06-2018
-====================
-Device Specific:
-*Liquid Version bumped to 9.1.2
-*Update Gcam to Pixel3Mod V4 By Arnova8G2
-*Added DTS-Eagle audio HAL Features
-*Added Sim Enable/Disable Toggle
-*Fixed Power Menu Lag when more than 5 options are added to the menu
-*Added Caffine Tile Timer
-*Added Force Expanded Notifications support
-Kernel Changes:
-*Upstreamed Kernel to 3.18.113
-*Merged Latest Caf tags
-*drivers: prima: Update to CAF Tag LA.UM.6.6.r1-08900-89xx.0
-*Improved cfq and maple i/o schedulers
-*Improved tcp westwood
-*Added Sound Control
-*Added ARM64 CRC32 hw accelerated module
-*Updated f2fs to v4.17-rc1
-*Added support for TTL fixation
-*Enabled DTS-Eagle integration
-*Improved interactive governor
-
-ROM Specific:
-[*]Frameworks base bug fixes and security updates
-[*]Remove lounge unused imports and content resolvers
-[*]Added power menu ripple effects and menu scrolling
-[*]Added rounded recent cards when using aosp recents
-[*]Added screen record and its quick tile enhancements
-[*]Show center clock when you pull down quick settings
-[*]Added kill any app and locking tasks to aosp recents
-[*]Added back other caffeine tile default timer options
-[*]Immersive mode and sound search quick settings tiles
-[*]Added ambient music ticker bug fixes and improvements
-[*]Added extended UI theme and 5 brand new color accents
-
-====================
-     13-06-2018
-====================
-Device Specific:
-*Liquid Version bumped to 9.1.1
-*Added OTA support
-*Fixed USB Tethring
-*Added gcam as default camera and disabled snap
-*Fixed Hardware keys disable issues
-*Set GPU and CPU Max speed to stock speeds on boot
-Kernel Changes:
-*Upstreamed Kernel to 3.18.112
-*Merged Latest Caf tags
-*Added Maple(default) and bfq i/o schedulers
-*Added Relaxed and Chill governors
-*Enabled Boeffla WakeLock Blocker
-*Enabled USB fast charge
-*Enabled Qnovo charging interface
-*Added INTELLI_THERMAL
-*Added fsync ON/OFF support
-*Added Adreno Idler and enabled State Notifier
-*Fixed double tap to wake when system sleeps
-
-ROM Specific: v9.1.4
-[*]New august security update (OPM6.171019.030.H1)
-[*]Frameworks base bug fixes and security updates
-[*]Lounge: Added App Circle Sidebar
-[*]Lounge: Added OP like navigation gestures
-[*]Lounge: Fixed QS Tile accents
-[*]Added call recording 
-[*]Added Gaming Mode Tile
-[*]Phone,Contacts,Documents apps are now themeable
-[*]Screenrecord: Improvements for notification
-[*]Improved MTP
-[*]Added ScreenStablization toggle in disaplay setiings
-[*]Added ScreenStablization QS Tile
-[*]Improved Theming and Substratum Support
-[*]Improved IMS and VoLTE support
-[*]Wired/BT headset: make ringtone audio focus customizable
-[*]Added ripple effect to the buttons to the left and right of the brightness slider
+[*]Upstreamed kernel to 3.18.123
+[*]Merged Latest Caf tags
+[*]drivers: prima: Update to CAF Tag LA.UM.6.6.r1-09800-89xx.0
+[*]Update Wireguard to 0.0.20180925
