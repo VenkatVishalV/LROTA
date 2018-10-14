@@ -1,4 +1,69 @@
 ====================
+     13-10-2018
+====================
+[*]liquid Version bumped to 10.0.1
+[*]Merged Latest october security patches
+[*]Framework base bug fixes and improvements
+[*]Fixed Settings app strings mixup after dirty flashes
+[*]Lounge: All new animations,ambient and weather settings
+[*]Advanced reboot option in power menu was made more dynamic
+[*]Three finger screenshot gesture
+[*]Added Auto brightness toggle on qs pannel
+[*]Add CarbonGestures
+[*]Add Statusbar Clock and Carrier Label color
+[*]Lockscreen Clock Widget Fonts
+[*]Data disabled icon switch
+[*]StatusbarClock: date right/left position
+[*]Smart Pulldown
+[*]Add Quick Settings Pulldown options
+[*]Allow tuning ambient display with sensors
+[*]Hide arrows in network traffic indicators
+[*]Pocket judge
+[*]Statusbar Clock Font styles
+[*]Statusbar weather
+[*]config to hide status bar on lock screen
+[*]Burn-InProtection: Add enable and interval switches
+[*]allow to switch back to pre P mobile type icon style
+[*]Carrier Label font styles
+[*]Add back battery bar
+[*]lockscreen weather view
+[*]Add option to disable auto brightness icon in brightness slider
+[*]Add Flashlight blink on incoming calls
+[*]Launch default music player on headset connect
+[*]Add lockscreen visualizer toggle
+[*]Visualizer customizations
+[*]Custom Carrier Label & Carrier Label Placement
+[*]per-app cellular data and wifi restrictions
+[*]ADB over network
+[*]InstalledApp: show link to Google Play
+[*]Add back increasing ring feature
+[*]Lockscreen rotation config support
+[*]Option to hide Adb notification icon
+[*]Force Expanded Notifications
+[*]Add animations to qs tiles
+[*]Screen off animations
+[*]Ambient Display battery toggle
+[*]Sensor block per-package switch
+[*]Unlock with fingerprint after reboot
+[*]Option to disable brightness slider
+[*]Hide power menu on secure lockscreen
+[*]Add ability to disable lockscreen ripple
+[*]Toast icon switch
+[*]Disable Quick Settings on secure lockscreen
+[*]Night Light brightness mode options
+[*]AppOps: show/hide app type and allow/deny counters
+[*]Add package name to installed app details
+[*]lock pattern grid size
+[*]show bluetooth battery status when available
+[*]Check our github for more changes
+Device Specific Changes:
+[*]Added FM Radio by default
+[*]Fix Battery stats
+Kernel Changes:
+[*]Upstreamed kernel to 3.18.124
+[*]Merged Latest Caf tags
+
+====================
      30-09-2018
 ====================
 [*]Removed snap and added gcam as default cam
