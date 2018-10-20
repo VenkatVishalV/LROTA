@@ -1,4 +1,50 @@
 ====================
+     20-10-2018
+====================
+[*]Fixed SIM selection popup after every reboot
+[*]Added Now Playing(MIND Y'all drains a lot of battery, enable at your own wish)
+[*]Framework base bug fixes and improvements
+[*]Added Now Playing QS tile
+[*]Added rounded searchbar in seetings also fixed theming for it
+[*]New Accent Picker and more accents
+[*]Added Pixel navbar animation toggle
+[*]Fixed powermenu not showing up on lockscreen
+[*]Fixed Force Expanded notifications toggle
+[*]Added Proximity check on wake
+[*]Added systemUI restart on theme change
+[*]Added Hide notch toggle
+[*]Added Optimizations
+[*]Added a few scrolling improvements
+[*]Fixed Battery settings FC
+[*]Updated Launcher3
+[*]Added toggle to enable google feed support on Launcher3
+[*]Added rounded recents on Launcher3
+[*]Added custom icon support on Launcher3
+[*]Added Custom QS styles ( https://t.me/LRTISSOT/415420 )
+[*]Added theme tile
+[*]Added volume tones and toggle back
+[*]Statusbar weather
+[*]config to hide status bar on lock screen
+[*]Brought back CPU temperature to CPU info overlay
+[*]Added option to allow QS detail view
+[*]Fixed crash in formatted string with date on right 
+[*]Added exFAT support
+[*]Updated few stock drawables
+[*]Fixed Connection to hidden WiFI networks
+[*]Merged CAF tags in a lot of repo's to fix various stuff
+[*]For more changes check our github!
+Device Specific:
+[*]Fixed FM Radio FC when selecting Favourite channels
+[*]Re-enabled data-ipa-cfg-mgr
+[*]Enabled Manual Subscription Provisioning
+[*]Switched to health HAL 2.0
+[*]Merged CAF tags and updated disaplay,media HALs stack
+[*]Updated Widevine and vulkan blobs
+Kernel Specific:
+[*]Upstreamed kernel to 3.18.124
+[*]Merged latest CAF tags
+
+====================
      13-10-2018
 ====================
 [*]liquid Version bumped to 10.0.1
